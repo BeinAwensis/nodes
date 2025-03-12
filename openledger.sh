@@ -81,11 +81,11 @@ while true; do
     channel_logo
     sleep 2
     echo -e "\n\nMenu:"
-    echo "1. ✅ Install Node"
-    echo "2. 🚀 Launch Node"
-    echo "3. 📄 Check Logs"
-    echo "4. ❌ Uninstall Node"
-    echo -e "5. 🚪 Exit Script\n"
+    echo "1. Install Node"
+    echo "2. Launch Node"
+    echo "3. Check Logs"
+    echo "4. Uninstall Node"
+    echo -e "5. Exit Script\n"
     read -p "Select a menu item: " choice
 
     case $choice in
